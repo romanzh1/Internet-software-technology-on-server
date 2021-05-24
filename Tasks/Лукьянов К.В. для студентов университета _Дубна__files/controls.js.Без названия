@@ -1,0 +1,7 @@
+$(document).ready(function(){
+
+	$(".b-pulldown__item .b-pulldown__title").on("click",function(){
+		$(this).parent().find(".b-pulldown__description").toggleClass("on");
+	});
+
+});

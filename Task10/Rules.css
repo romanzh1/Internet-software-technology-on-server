@@ -1,0 +1,61 @@
+.block1 {
+	width: 50%;
+	background: #fdc;
+	padding: 50px;
+
+	border: solid 1px black;
+	float: left;
+	position: relative;
+	left: 43%;
+	margin: -600 -400 200;
+	text-align: center;
+	color: rgb(22, 4, 185);
+}
+.block2 {
+	width: 50%;
+	background: #fdc;
+	padding: 20px;
+	padding-right: 20px;
+	border: solid 1px black;
+	float: left;
+	position: relative;
+	left: 46%;
+	margin: -400 -430 200;
+	text-align: center;
+	color: rgb(22, 4, 185);
+}
+.block3 {
+	width: 50%;
+	float: left;
+	position: relative;
+	left: 45%;
+	margin: -100 -520 200;
+	text-align: center;
+}
+
+table {
+	border-spacing: 0 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border: 1px solid grey;
+	border-collapse: collapse;
+	margin: 650 800 400;
+	position: relative;
+}
+th,
+td {
+	border: 1px solid grey;
+}
+th {
+	color: dodgerblue;
+}
+td {
+	color: rgb(49, 44, 44);
+}
+
+body {
+	background-image: url(87836-OHWK1J-819.jpg);
+	font-size: 12pt;
+	color: rgb(255, 0, 0);
+	font-family: Calibri;
+}

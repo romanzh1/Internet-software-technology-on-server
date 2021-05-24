@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Страница формы отчётности</title>
+		<link rel="STYLESHEET" type="text/css" href="Rules.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Задание 10" />
+	</head>
+	<body>
+		<form method="GET" action="saveDataFromForm.php">
+			<div class="block1">
+				<div>
+					<strong>Имя:</strong>
+					<input name="firstName" size="30" type="text" />
+					<strong>Фамилия: </strong><input size="30" name="lastName" />
+					<strong>Отчество: </strong><input size="30" name="middleName" />
+
+					<strong>Курс:</strong>
+					<select name="course">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+
+					<strong>Факультет:</strong>
+					<select name="faculty">
+						<option>ИСАУ</option>
+						<option>ФЕИН</option>
+						<option>ИФИ</option>
+						<option>ФСГН</option>
+					</select>
+
+					<strong>Номер группы: </strong><input size="30" name="group" />
+				</div>
+			</div>
+
+			<div class="block2">
+				Предмет для сдачи <br />
+				<select name="subject">
+					<option>Технологии Web 2.0</option>
+					<option>Информатика</option>
+					<option>Программные технологии Интернет</option>
+					<option>Web-дизайн и портальные технологии</option>
+				</select>
+				<br />
+				<strong>Преподаватель: Лукьянов К.В</strong>
+				<br />
+				Форма сдачи: <br />
+				<input name="form_exam_och" value="Ochh" type="radio" /><label
+					>Очная</label
+				>
+				<br />
+
+				<input name="form_exam_dist" value="Distance" type="radio" /><label
+					>Дистанционная</label
+				>
+				<br />
+
+				<p>Выберите дату сдачи: <input type="date" name="calendar" /></p>
+
+				<p>Выберите время сдачи: <input type="time" name="calendarTime" /></p>
+			</div>
+
+			<div class="block3">
+				<div>
+					<input type="submit" value="Send" />
+				</div>
+			</div>
+
+			<table name="table_t">
+				<tr>
+					<td></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
